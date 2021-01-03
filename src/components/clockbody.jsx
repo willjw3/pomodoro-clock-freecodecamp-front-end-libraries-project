@@ -149,7 +149,7 @@ const ClockBody = () => {
                 <button id="reset" className="action-button" onClick={handleReset}><GrPowerReset size={20} /></button>
             </div>
             <span className={`warning-${warning}`}><FaSkullCrossbones size={30} /></span>
-            <audio id="beep" ref={alarm} src="http://alienscollection.com/sounds/siren.wav" type="audio" />
+            <audio id="beep" ref={alarm} src="http://alienscollection.com/sounds/siren.wav" type="audio/ogg" />
         </div>
     )
 }
