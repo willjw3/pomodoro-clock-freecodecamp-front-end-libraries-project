@@ -1,9 +1,7 @@
 import Header from "./components/header"
 import ClockBody from "./components/clockbody"
 import Footer from "./components/footer"
-import "fontsource-orbitron"
 import "fontsource-courgette"
-import "fontsource-vt323"
 import "fontsource-share-tech-mono"
 import "./styles/app.css"
 
